@@ -1,0 +1,8 @@
+name: 'Get Joke'
+description: 'Fetch a random joke from the internet'
+outputs:
+  joke:
+    description: 'A random joke'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
